@@ -1,0 +1,19 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    border: 5px solid black;
+    border-radius: 20px;
+    padding: 2rem 2rem;
+}
+
+.content input{
+    margin-bottom: 20px;
+    font-size: 20px;
+}
